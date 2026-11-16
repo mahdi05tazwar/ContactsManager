@@ -13,22 +13,22 @@
         android:theme="@style/Theme.ContactsManager"
         tools:targetApi="31">
         <activity
-            android:name=".UserManualActivity"
+            android:name=".activity.UserManualActivity"
             android:exported="false" />
         <activity
-            android:name=".SearchActivity"
+            android:name=".activity.SearchActivity"
             android:exported="false" />
         <activity
-            android:name=".EditContactActivity"
+            android:name=".activity.EditContactActivity"
             android:exported="false" />
         <activity
-            android:name=".ContactDetailsActivity"
+            android:name=".activity.ContactDetailsActivity"
             android:exported="false" />
         <activity
-            android:name=".AddContactActivity"
+            android:name=".activity.AddContactActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".activity.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

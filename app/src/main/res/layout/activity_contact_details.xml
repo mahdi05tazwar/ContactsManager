@@ -7,17 +7,17 @@
     <data>
         <variable
             name="clickHandler"
-            type="com.mahditaz.contactsmanager.ClickHandlers" />
+            type="com.mahditaz.contactsmanager.util.ClickHandlers" />
         <variable
             name="contact"
-            type="com.mahditaz.contactsmanager.Contacts" />
+            type="com.mahditaz.contactsmanager.db.Contacts" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/blue0"
-        tools:context=".ContactDetailsActivity">
+        tools:context=".activity.ContactDetailsActivity">
 
         <TextView
             android:id="@+id/addConHeader"

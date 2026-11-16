@@ -1,4 +1,4 @@
-package com.mahditaz.contactsmanager;
+package com.mahditaz.contactsmanager.activity;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -14,7 +14,15 @@ import android.content.ClipboardManager;
 import android.os.Bundle;
 import android.widget.Toast;
 
+import com.mahditaz.contactsmanager.util.ClickHandlers;
+import com.mahditaz.contactsmanager.util.Copier;
+import com.mahditaz.contactsmanager.R;
+import com.mahditaz.contactsmanager.adapter.RVAdapter;
+import com.mahditaz.contactsmanager.data.MyViewModel;
+import com.mahditaz.contactsmanager.data.StaticData;
 import com.mahditaz.contactsmanager.databinding.ActivityMainBinding;
+import com.mahditaz.contactsmanager.db.Contacts;
+import com.mahditaz.contactsmanager.db.ContactsDB;
 
 import java.util.ArrayList;
 import java.util.List;

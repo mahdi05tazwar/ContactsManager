@@ -1,4 +1,4 @@
-package com.mahditaz.contactsmanager;
+package com.mahditaz.contactsmanager.data;
 
 public class UserManualItem {
     int imgRef;

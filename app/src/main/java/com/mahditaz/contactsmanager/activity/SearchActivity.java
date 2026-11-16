@@ -1,24 +1,25 @@
-package com.mahditaz.contactsmanager;
+package com.mahditaz.contactsmanager.activity;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
-import androidx.lifecycle.LifecycleOwner;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
-import androidx.recyclerview.widget.ItemTouchHelper;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import android.app.Activity;
 import android.content.ClipData;
 import android.content.ClipboardManager;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.Toast;
 
-import com.mahditaz.contactsmanager.databinding.ActivityMainBinding;
+import com.mahditaz.contactsmanager.util.Copier;
+import com.mahditaz.contactsmanager.util.Destroyer;
+import com.mahditaz.contactsmanager.R;
+import com.mahditaz.contactsmanager.data.MyViewModel;
+import com.mahditaz.contactsmanager.data.SearchHolder;
+import com.mahditaz.contactsmanager.adapter.SearchRVAdapter;
+import com.mahditaz.contactsmanager.data.StaticData;
 import com.mahditaz.contactsmanager.databinding.ActivitySearchBinding;
+import com.mahditaz.contactsmanager.db.Contacts;
 
 import java.util.ArrayList;
 import java.util.Iterator;

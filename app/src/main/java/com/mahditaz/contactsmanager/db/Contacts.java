@@ -1,4 +1,4 @@
-package com.mahditaz.contactsmanager;
+package com.mahditaz.contactsmanager.db;
 
 import androidx.room.ColumnInfo;
 import androidx.room.Entity;

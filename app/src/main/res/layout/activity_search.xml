@@ -6,14 +6,14 @@
     <data>
         <variable
             name="searchholder"
-            type="com.mahditaz.contactsmanager.SearchHolder" />
+            type="com.mahditaz.contactsmanager.data.SearchHolder" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/blue0"
-        tools:context=".SearchActivity">
+        tools:context=".activity.SearchActivity">
 
         <EditText
             android:id="@+id/searchField"

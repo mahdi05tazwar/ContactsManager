@@ -1,4 +1,4 @@
-package com.mahditaz.contactsmanager;
+package com.mahditaz.contactsmanager.db;
 
 import androidx.lifecycle.LiveData;
 import androidx.room.Dao;

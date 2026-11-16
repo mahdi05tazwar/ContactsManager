@@ -1,10 +1,14 @@
-package com.mahditaz.contactsmanager;
+package com.mahditaz.contactsmanager.data;
 
 import android.app.Application;
 import android.os.Handler;
 import android.os.Looper;
 
 import androidx.lifecycle.LiveData;
+
+import com.mahditaz.contactsmanager.db.Contacts;
+import com.mahditaz.contactsmanager.db.ContactsDAO;
+import com.mahditaz.contactsmanager.db.ContactsDB;
 
 import java.util.List;
 import java.util.concurrent.ExecutorService;

@@ -1,7 +1,6 @@
-package com.mahditaz.contactsmanager;
+package com.mahditaz.contactsmanager.adapter;
 
 import android.content.Context;
-import android.media.Image;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -10,6 +9,9 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.mahditaz.contactsmanager.R;
+import com.mahditaz.contactsmanager.data.UserManualItem;
 
 import java.util.ArrayList;
 

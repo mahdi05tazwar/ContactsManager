@@ -1,4 +1,4 @@
-package com.mahditaz.contactsmanager;
+package com.mahditaz.contactsmanager.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
@@ -8,7 +8,11 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
 
+import com.mahditaz.contactsmanager.R;
+import com.mahditaz.contactsmanager.data.MyViewModel;
+import com.mahditaz.contactsmanager.data.StaticData;
 import com.mahditaz.contactsmanager.databinding.ActivityEditContactBinding;
+import com.mahditaz.contactsmanager.db.Contacts;
 
 public class EditContactActivity extends AppCompatActivity implements View.OnClickListener{
     ActivityEditContactBinding binding;

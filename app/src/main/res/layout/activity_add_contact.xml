@@ -7,14 +7,14 @@
     <data>
         <variable
             name="contact"
-            type="com.mahditaz.contactsmanager.Contacts" />
+            type="com.mahditaz.contactsmanager.db.Contacts" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/blue0"
-        tools:context=".AddContactActivity">
+        tools:context=".activity.AddContactActivity">
 
         <TextView
             android:id="@+id/addConHeader"

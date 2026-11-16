@@ -1,4 +1,4 @@
-package com.mahditaz.contactsmanager;
+package com.mahditaz.contactsmanager.adapter;
 
 import android.content.Context;
 import android.content.Intent;
@@ -11,7 +11,12 @@ import androidx.annotation.NonNull;
 import androidx.databinding.DataBindingUtil;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.mahditaz.contactsmanager.util.Copier;
+import com.mahditaz.contactsmanager.R;
+import com.mahditaz.contactsmanager.data.StaticData;
+import com.mahditaz.contactsmanager.activity.ContactDetailsActivity;
 import com.mahditaz.contactsmanager.databinding.ContactsItemViewBinding;
+import com.mahditaz.contactsmanager.db.Contacts;
 
 import java.util.ArrayList;
 import java.util.Collections;

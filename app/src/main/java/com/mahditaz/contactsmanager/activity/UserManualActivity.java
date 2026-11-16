@@ -1,10 +1,14 @@
-package com.mahditaz.contactsmanager;
+package com.mahditaz.contactsmanager.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
+
+import com.mahditaz.contactsmanager.adapter.ManualRVAdapter;
+import com.mahditaz.contactsmanager.R;
+import com.mahditaz.contactsmanager.data.UserManualItem;
 
 import java.util.ArrayList;
 
